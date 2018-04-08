@@ -10,7 +10,7 @@
 </head>
 <body>
 	  <div class="body_nav">
-        <a href="#" class="body_a">众泰（CRM）系统</a>
+        <a href="#" class="body_a">后台（CRM）系统</a>
         <div class="body_nav_right">
             <img src="image/body_toggle.png" class="body_toggle fl pon" />
             <div class="body_name fr" style="margin:0;">admin</div>
@@ -54,7 +54,7 @@
                         </a>
                         <a href="/admin/activity/index" id="body_Outing">
                             <img src="image/body_around.png" alt="Alternate Text" />
-                            踏青活动管理
+                            春游活动管理
                         </a>
                     </li>
                 </ul>
@@ -195,7 +195,7 @@
     <div class="body_right" style="background:#eee;">
         <div style="height: 400px;width:300px;background: #ccc;">这是主体</div>
         <div class="body_footer">
-            版权所有&nbsp; @DateTime.Now.Year &nbsp; 杭州.....有限公司
+            版权所有&nbsp; @DateTime.Now.Year &nbsp; liandaye
         </div>
     </div>
 </body>
@@ -224,7 +224,7 @@
             toggleObj = null;
             $('.body_left_ul > li > a > img:last-child').attr('src', 'image/body_up.png')
             if (!toggleFlag) {
-                $('.body_a').html('众泰').animate({ 'width': '60', 'font-size': '14px' });
+                $('.body_a').html('管理').animate({ 'width': '60', 'font-size': '14px' });
                 $('.body_left_user').html('<img src="image/headPhoto.png" style="margin:3px;"/>').animate({ 'width': '60', 'height': '50' });
                 $('.body_left').animate({ 'width': '60' });
                 $('.body_right,.body_nav_right').animate({ 'margin-left': '60' });
@@ -232,7 +232,7 @@
                 toggleFlag = true;
             } else {
                 $('.body_left_user').html('<img src="image/headPhoto.png" alt="Alternate Text"/><p>admin</p>').animate({ 'width': '180', 'height': '90' });
-                $('.body_a').animate({ 'width': '180', 'font-size': '20px' }).html('众泰（CRM）系统');
+                $('.body_a').animate({ 'width': '180', 'font-size': '20px' }).html('后台（CRM）系统');
                 $('.body_left').animate({ 'width': '180' });
                 $('.body_right,.body_nav_right').animate({ 'margin-left': '180' });
                 $('.body_left_ul > li > a > img:last-child,.body_left_ul > li > a > span').show(800);
